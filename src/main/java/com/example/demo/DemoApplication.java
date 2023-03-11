@@ -13,8 +13,4 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/sample")
-	String sayHello() {
-		return "Hello";
-	}
 }
